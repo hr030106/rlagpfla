@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #define MAX_SIZE 10 // 최대 행렬 크기 정의
 
 void matrix_multiply(int mat1[][MAX_SIZE], int mat2[][MAX_SIZE], int result[][MAX_SIZE], int size) {
@@ -32,11 +31,7 @@ int main() {
             scanf("%d", &mat2[i][j]);
         }
     }
-
-    // 행렬 곱셈 함수 호출
     matrix_multiply(mat1, mat2, result, size);
-
-    // 결과 행렬 출력
     printf("결과 행렬:\n");
     for (int i = 0; i < size; ++i) {
         for (int j = 0; j < size; ++j) {
