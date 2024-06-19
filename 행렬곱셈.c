@@ -12,7 +12,6 @@ void matrix_multiply(int mat1[][MAX_SIZE], int mat2[][MAX_SIZE], int result[][MA
         }
     }
 }
-
 int main() {
     int size;
 
@@ -27,7 +26,6 @@ int main() {
             scanf("%d", &mat1[i][j]);
         }
     }
-
     printf("두 번째 행렬을 입력하세요:\n");
     for (int i = 0; i < size; ++i) {
         for (int j = 0; j < size; ++j) {
@@ -46,6 +44,5 @@ int main() {
         }
         printf("\n");
     }
-
     return 0;
 }
